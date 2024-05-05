@@ -1,0 +1,26 @@
+﻿@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>Track a Service</h4>
+        <hr />
+
+        <div class="form-group">
+            <label for="bookingType" class="control-label">Enter Service ID:</label>
+            <div class="col-md-10">
+                <input name="bookingType" class="form-control" />
+            </div>
+        </div>
+
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <a class="btn btn-outline-dark" href="@Url.Action("TrackDet", "Services")">Track &raquo;</a>
+            </div>
+        </div>
+    </div>
+
+
+}

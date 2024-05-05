@@ -1,0 +1,71 @@
+﻿@{
+    ViewBag.Title = "Services";
+}
+
+<main>
+
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Book a Service</h2>
+            <p>
+                Clicl to book a service
+            </p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Book", "Services")">Book &raquo;</a></p>
+
+        </section>
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">Track a Service</h2>
+            <p>Click to track a service</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Track", "Services")">Track &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">Lookup Product Catalogue</h2>
+            <p>Click to lookup</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Index", "Services")">LookUp &raquo;</a></p>
+        </section>
+    </div>
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Track Shipment</h2>
+            <p>
+                Clicl to Track Shipment
+            </p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("TrackSH", "Services")">Track &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">Pay for a Service</h2>
+            <p>Click to Pay for a Service</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Pay", "Services")">Pay &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">Subscribe a Plan</h2>
+            <p>Click to Subscribe a Plan</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Sub", "Services")">Subscribe &raquo;</a></p>
+        </section>
+    </div>
+
+
+    <div class="row">
+        <section class="col-md-4" aria-labelledby="gettingStartedTitle">
+            <h2 id="gettingStartedTitle">Join Loyalty Program </h2>
+            <p>
+                Clicl to Join Loyalty Program
+            </p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Loyal", "Services")">Join Now &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="librariesTitle">
+            <h2 id="librariesTitle">Customer Support</h2>
+            <p>Click for Customer Support</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("support", "Services")">Customer Support &raquo;</a></p>
+        </section>
+        <section class="col-md-4" aria-labelledby="hostingTitle">
+            <h2 id="hostingTitle">Customize a Service</h2>
+            <p>Click to Customize a Service</p>
+            <p><a class="btn btn-outline-dark" href="@Url.Action("Customize", "Services")">Customize &raquo;</a></p>
+        </section>
+    </div>
+
+
+</main>
